@@ -142,7 +142,7 @@ footer p {
     margin: 14px 0 14px 20px;
     font-size: 42px;
   }
-  
+
   header nav ul {
     align-items: center;
   }
@@ -150,5 +150,45 @@ footer p {
   .group {
     align-items: center;
     flex-direction: row;
+  }
+}
+
+/* ------- Media Query for Tablets and Desktops ------- */
+
+@media all and (min-width: 768px) {
+  header {
+    padding: 20px 40px;
+  }
+
+  .logo {
+    font-size: 54px;
+    margin: 0;
+  }
+
+  header nav {
+    justify-content: space-between;
+  }
+
+  .group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .item {
+    margin: 20px;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  form div {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer {
+    padding: 20px 40px;
   }
 }
