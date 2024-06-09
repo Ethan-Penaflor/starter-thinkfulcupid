@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Lato', sans-serif;
   color: #6b1a22;
@@ -129,9 +128,9 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
+/* ------- Media Query for Tablets and Desktops ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -152,8 +151,6 @@ footer p {
     flex-direction: row;
   }
 }
-
-/* ------- Media Query for Tablets and Desktops ------- */
 
 @media all and (min-width: 768px) {
   header {
